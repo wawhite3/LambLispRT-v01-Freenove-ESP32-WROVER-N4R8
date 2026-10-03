@@ -1,0 +1,42 @@
+{
+    "build": {
+        "arduino": {
+            "ldscript": "esp32_out.ld",
+            "partitions": "w3_pio/partitions/partitions_4M_ota.csv"
+        },
+        "core": "esp32",
+        "extra_flags": [
+            "-DARDUINO_ESP32_DEV",
+            "-DARDUINO_USB_MODE=1",
+            "-DARDUINO_RUNNING_CORE=1",
+            "-DARDUINO_EVENT_RUNNING_CORE=1"
+        ],
+        "f_cpu": "240000000L",
+        "f_flash": "80000000L",
+        "flash_mode": "qio",
+        "mcu": "esp32",
+        "variant": "auto"
+    },
+    "connectivity": [
+        "bluetooth",
+        "wifi"
+    ],
+    "debug": {
+        "openocd_target": "esp32.cfg"
+    },
+    "frameworks": [
+        "arduino",
+        "espidf"
+    ],
+    "name": "Freenove ESP32-WROVER-CAM standalone (N4R4: 4MB flash, 4MB PSRAM)",
+    "upload": {
+        "flash_size": "4MB",
+        "maximum_ram_size": 4521984,
+        "maximum_size": 4194304,
+        "require_upload_port": true,
+        "speed": 460800,
+        "chip": "auto"
+    },
+    "url": "https://store.freenove.com/products/fnk0060",
+    "vendor": "Freenove"
+}
