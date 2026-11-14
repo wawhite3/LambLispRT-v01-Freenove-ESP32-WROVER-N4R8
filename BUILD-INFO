@@ -1,0 +1,19 @@
+# LambLisp release provenance
+env:            Freenove-ESP32-WROVER
+git_commit:     0542b39da7be36e16a2b928700c20e28b89a77c1
+git_describe:   fs-esp32s3-n8r2-00-20261109_161509-205-g0542b39d
+git_branch:     master
+git_origin:     https://github.com/wawhite3/Lamb-v01.git
+tree_state:     clean -- this binary is reproducible from the commit above
+other_changes:  1 tracked file(s) modified outside the build inputs
+#               (documentation and figure sources); they do not enter this binary
+pushed_to_origin: 6 commit(s) ahead of origin/master
+build_utc:      2026-11-14 01:26:12 UTC
+build_host:     fisher
+build_stamp:    W3_SYSTEM_VERSION "1.01.1794618173"
+feature_flags:  -DLL_BOARD_NAME='"Freenove-ESP32-WROVER"' -DLL_ESP_ARDUINO=1 -DLL_CAMERA=1 -DLL_COMMONIO=1 -DLL_I2C=1 -DLL_LCD1602=1 -DLL_MODBUS=1 -DLL_SONAR=1 -DLL_LITTLEFS=1 -DLL_WIFI=1 -DLL_WIRE=1 -DLL_WS2812=1 -DLL_BIGNUM=1 -DLL_COMPLEX=1 -DLL_PROFIBUS=1 -DLL_ESP32=1 -DLL_XTENSA=1 -DLL_F -DLL_ESP32_N4R4=1 
+toolchain:      gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+manual_source:  /home/sir/src/Lamb-v01/doc/LambLisp.pdf
+manual_built_utc: 2026-11-14 01:02:48 UTC
+demo_source:    /home/sir/src/Lamb-v01/.pio/build-s6b54cad3/wasm32_browser
+demo_built_utc: 2026-11-14 01:03:25 UTC
